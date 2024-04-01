@@ -1,0 +1,49 @@
+.login,
+.login * {
+  box-sizing: border-box;
+}
+.login {
+  background: #219ebc;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
+.login .login-div {
+  position: absolute;
+  inset: 0;
+}
+.login .div-login {
+  background: #023047;
+  border-radius: 100px;
+  width: 788px;
+  height: 910px;
+  position: absolute;
+  left: calc(50% - -10px);
+  bottom: 85px;
+}
+.login .frame-1 {
+  width: 464px;
+  height: 660px;
+  position: absolute;
+  left: 1132px;
+  top: 291px;
+}
+.login .button-msoa {
+  background: #c43e1c;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 12px 73px 12px 73px;
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 464px;
+  position: absolute;
+  left: 0px;
+  top: 584px;
+  box-shadow: 0px 4px 2.1px 0px rgba(0, 0, 0, 0.5);
+}
+/* Rest of the CSS styles... */
