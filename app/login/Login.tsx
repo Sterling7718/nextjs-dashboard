@@ -1,22 +1,27 @@
 import React from 'react';
-import "./Login.css";
+import './Login.css';
+import Image from 'next/image';
 
 interface LoginProps {
   className?: string;
 }
 
-const Login: React.FC<LoginProps> = ({ className }) => {
+export const Login: React.FC<LoginProps> = ({ className }) => {
   return (
-    <div className={"login " + className}>
+    <div className={'login ' + (className || '')}>
       <div className="div-login"></div>
       <div className="frame-1">
         <div className="button-msoa">
-          <img className="image-3" src="image-30.png" alt="Office 365 Logo" />
-          <div className="office-365-login">Office 365 Login </div>
+          <Image
+            className="image-3"
+            src="/image-30.png"
+            alt="Office 365 Login"
+          />
+          <div className="office-365-login">Office 365 Login</div>
         </div>
-        <div className="or">or </div>
+        <div className="or">or</div>
         <div className="rectangle-3"></div>
-        <div className="login2">LOGIN </div>
+        <div className="login2">LOGIN</div>
         <div className="remember-me-check-box">
           <svg
             className="checkbox"
@@ -73,10 +78,10 @@ const Login: React.FC<LoginProps> = ({ className }) => {
               </filter>
             </defs>
           </svg>
-          <div className="remember-me">Remember me </div>
+          <div className="remember-me">Remember me</div>
         </div>
         <div className="password-input">
-          <div className="password">Password </div>
+          <div className="password">Password</div>
           <div className="text-field">
             <div className="enter-6-characters-or-more">
               Enter 6 characters or more
@@ -84,10 +89,10 @@ const Login: React.FC<LoginProps> = ({ className }) => {
           </div>
         </div>
         <div className="email-input">
-          <div className="email">Email </div>
+          <div className="email">Email</div>
           <div className="text-field">
             <div className="you-sjdelmonte-sti-edu-ph">
-              you@sjdelmonte.sti.edu.ph{" "}
+              you@sjdelmonte.sti.edu.ph
             </div>
           </div>
         </div>
@@ -98,19 +103,17 @@ const Login: React.FC<LoginProps> = ({ className }) => {
             Login
             <br />
           </span>
-          <span className="login-with-office-365-span2">with </span>
+          <span className="login-with-office-365-span2">with</span>
           <span className="login-with-office-365-span3">Office 365</span>
-        </span>{" "}
+        </span>
       </div>
       <div className="student-clearance">
         Student
         <br />
-        Clearance{" "}
+        Clearance
       </div>
-      <img className="image-4" src="image-40.png" alt="Image 4" />
-      <img className="image-5" src="image-50.png" alt="Image 5" />
+      <Image className="image-4" src="/image-40.png" alt="Student Clearance" />
+      <Image className="image-5" src="/image-50.png" alt="Student Image" />
     </div>
   );
 };
-
-export default Login;

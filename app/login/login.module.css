@@ -1,0 +1,287 @@
+/* Updated CSS */
+.login {
+  background: #219ebc;
+  max-width: 1440px; /* Set a maximum width for the container */
+  width: 100%; /* Set width to 100% to fill the entire viewport */
+  height: 100vh; /* Set height to 100% of the viewport height */
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.div-login {
+  background: #023047;
+  border-radius: 60px; /* Adjusted border-radius */
+  width: 480px; /* Adjusted width */
+  height: 629; /* Adjusted height */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 5%;
+}
+
+.frame-1 {
+  width: 30%; /* Adjusted width */
+  height: auto; /* Adjusted height */
+  position: absolute;
+  left: 70%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.button-msoa {
+  background: #c43e1c;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 12px 73px;
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 464px;
+  position: absolute;
+  left: 0px;
+  top: 584px;
+  box-shadow: 0px 4px 2.1px 0px rgba(0, 0, 0, 0.5);
+}
+
+.image-3 {
+  flex-shrink: 0;
+  width: 45px; /* Adjusted width */
+  height: 52px; /* Adjusted height */
+  position: relative;
+  object-fit: cover;
+}
+
+.office-365-login {
+  color: #ffffff;
+  text-align: left;
+  font-family: 'Arimo-Bold', sans-serif;
+  font-size: 31px;
+  font-weight: 700;
+  position: relative;
+  width: 287.48px;
+}
+
+.or {
+  color: #ffffff;
+  text-align: left;
+  font-family: 'Arimo-Bold', sans-serif;
+  font-size: 31px;
+  font-weight: 700;
+  position: absolute;
+  left: 215px;
+  top: 514px;
+  width: 39px;
+}
+
+.rectangle-3 {
+  background: #46b1e1;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 464px;
+  height: 77px;
+  position: absolute;
+  left: 1px;
+  top: 403px;
+}
+
+.login2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: 'Arimo-Bold', sans-serif;
+  font-size: 31px;
+  font-weight: 700;
+  position: absolute;
+  left: 179.46px;
+  top: 419px;
+  width: 110.65px;
+}
+
+.remember-me-check-box {
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 314.33px;
+  position: absolute;
+  left: 1px;
+  top: 308px;
+  box-shadow: 0px 4px 2.1px 0px rgba(0, 0, 0, 0.5);
+}
+
+.checkbox {
+  border-radius: 5px;
+  flex-shrink: 0;
+  width: 44px;
+  height: 41px;
+  position: relative;
+  overflow: visible;
+}
+
+.remember-me {
+  color: #ffffff;
+  text-align: left;
+  font-family: 'Arimo-Bold', sans-serif;
+  font-size: 31px;
+  font-weight: 700;
+  position: relative;
+}
+
+.password-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 475.93px;
+  height: 120px;
+  position: absolute;
+  left: 0px;
+  top: 154px;
+  overflow: hidden;
+}
+
+.password {
+  color: #ffffff;
+  text-align: left;
+  font-family: 'Arimo-Bold', sans-serif;
+  font-size: 39px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+
+.text-field {
+  background: #156082;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-width: 2px;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 455px;
+  position: relative;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.enter-6-characters-or-more {
+  color: #ffffff;
+  text-align: left;
+  font-family: 'Arimo-Regular', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  opacity: 0.5;
+  position: relative;
+  flex: 1;
+}
+
+.email-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 475.93px;
+  height: 120px;
+  position: absolute;
+  left: 1.03px;
+  top: 0px;
+  overflow: hidden;
+}
+
+.email {
+  color: #ffffff;
+  text-align: left;
+  font-family: 'Arimo-Bold', sans-serif;
+  font-size: 39px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+
+.you-sjdelmonte-sti-edu-ph {
+  color: #ffffff;
+  text-align: left;
+  font-family: 'Arimo-Regular', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  opacity: 0.5;
+  position: relative;
+  flex: 1;
+}
+
+.login-with-office-365 {
+  text-align: center;
+  position: absolute;
+  left: calc(50% - -70px);
+  top: 114px;
+  width: 668px;
+}
+
+.login-with-office-365-span {
+  color: #ffffff;
+  font-family: 'Arimo-Bold', sans-serif;
+  font-size: 39px;
+  font-weight: 700;
+}
+
+.login-with-office-365-span2 {
+  color: #ffffff;
+  font-family: 'Arimo-Bold', sans-serif;
+  font-size: 39px;
+  font-weight: 700;
+}
+
+.login-with-office-365-span3 {
+  color: #c43e1c;
+  font-family: 'Arimo-Bold', sans-serif;
+  font-size: 39px;
+  font-weight: 700;
+}
+
+.student-clearance {
+  color: #ffffff;
+  text-align: left;
+  font-family: 'Arimo-Bold', sans-serif;
+  font-size: 48px; /* Adjusted font size */
+  font-weight: 700;
+  position: absolute;
+  left: 20%;
+  top: 40%;
+  width: 60%; /* Adjusted width */
+  height: auto; /* Adjusted height */
+}
+
+.image-4 {
+  width: 128px; /* Adjusted width */
+  height: auto; /* Adjusted height */
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  object-fit: cover;
+}
+
+.image-5 {
+  width: 84px; /* Adjusted width */
+  height: auto; /* Adjusted height */
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+  box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.5);
+  object-fit: cover;
+}
